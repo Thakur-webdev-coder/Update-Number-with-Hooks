@@ -14,7 +14,7 @@ const MyIndex = () => {
      </View>
      <View>
      <TouchableOpacity style={{backgroundColor:'teal',fontSize:40,paddingVertical:18}}
-     onPress={()=>setcount(count+1)}
+     onPress={()=>setcount(count+10)}
      ><Text>Increase Number</Text></TouchableOpacity>
      </View>
       </View>
